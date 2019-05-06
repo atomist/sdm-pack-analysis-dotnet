@@ -1,5 +1,6 @@
 # @atomist/sdm-pack-analysis-dotnet
 
+[![atomist sdm goals](https://badge.atomist.com/T29E48P34/atomist/sdm-pack-analysis-dotnet/bcc76ad0-eb5a-4c5e-b628-cf3b53b33345)](https://app.atomist.com/workspace/T29E48P34)
 [![npm version](https://img.shields.io/npm/v/@atomist/sdm-pack-analysis-dotnet.svg)](https://www.npmjs.com/package/@atomist/sdm-pack-analysis-dotnet)
 
 This pack contains interpreters and scanners, adding .NET Core stack support to
