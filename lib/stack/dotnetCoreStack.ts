@@ -16,9 +16,9 @@
 
 import { SoftwareDeliveryMachine } from "@atomist/sdm";
 import { StackSupport } from "@atomist/sdm-pack-analysis";
+import { DotnetCoreTransformRecipeContributor } from "../tranform/dotnetCoreTransforms";
 import { DotnetCoreInterpreter } from "./DotnetCoreInterpreter";
 import { dotnetCoreScanner } from "./dotnetCoreScanner";
-import { DotnetCoreTransformRecipeContributor } from "../tranform/dotnetCoreTransforms";
 
 /**
  * StackSupport for .NET Core
