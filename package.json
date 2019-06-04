@@ -25,8 +25,8 @@
   ],
   "types": "./index.d.ts",
   "dependencies": {
-    "@types/fs-extra": "^5.0.4",
-    "fs-extra": "^7.0.1",
+    "@types/fs-extra": "^7.0.0",
+    "fs-extra": "^8.0.1",
     "lodash": "^4.17.11"
   },
   "peerDependencies": {
@@ -36,25 +36,25 @@
     "@atomist/sdm-pack-analysis": ">=1.1.0"
   },
   "devDependencies": {
-    "@atomist/automation-client": "1.4.1-master.20190503175050",
-    "@atomist/sdm": "1.5.0-master.20190503092504",
-    "@atomist/sdm-core": "1.5.0-master.20190429220018",
-    "@atomist/sdm-pack-analysis": "1.1.0-master.20190429060345",
+    "@atomist/automation-client": "1.5.3-master.20190604133443",
+    "@atomist/sdm": "1.5.1-master.20190604145220",
+    "@atomist/sdm-core": "1.5.1-master.20190530230030",
+    "@atomist/sdm-pack-analysis": "1.1.0-master.20190526073852",
     "@atomist/sdm-pack-build": "1.0.4-master.20190320190156",
-    "@atomist/sdm-pack-docker": "1.2.1-master.20190502172115",
+    "@atomist/sdm-pack-docker": "2.0.0-master.20190521194715",
     "@atomist/microgrammar": "^1.2.0",
-    "@types/mocha": "^5.2.5",
+    "@types/mocha": "^5.2.7",
     "@types/power-assert": "^1.5.0",
-    "espower-typescript": "^9.0.0",
-    "mocha": "^5.2.0",
+    "espower-typescript": "^9.0.2",
+    "mocha": "^6.1.4",
     "npm-run-all": "^4.1.5",
-    "power-assert": "^1.6.0",
-    "rimraf": "^2.6.2",
+    "power-assert": "^1.6.1",
+    "rimraf": "^2.6.3",
     "supervisor": "^0.12.0",
-    "ts-node": "^7.0.0",
-    "tslint": "^5.11.0",
-    "typedoc": "^0.13.0",
-    "typescript": "^3.1.6"
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.5.1"
   },
   "directories": {
     "test": "test"

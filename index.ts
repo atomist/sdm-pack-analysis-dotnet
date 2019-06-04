@@ -24,6 +24,7 @@ export {
     DotnetCoreProjectVersioner,
     dotnetCoreVersionGrammar,
     DotnetCoreVersionProjectListener,
+
 } from "./lib/stack/DotnetCoreInterpreter";
 
 export {
@@ -31,4 +32,5 @@ export {
     DotnetCoreProjectFileGlob,
     dotnetCoreScanner,
     DotnetCoreStack,
+    getDockerfile,
 } from "./lib/stack/dotnetCoreScanner";

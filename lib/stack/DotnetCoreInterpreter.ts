@@ -74,9 +74,7 @@ export class DotnetCoreInterpreter implements Interpreter {
         .with({
             progressReporter: DockerProgressReporter,
             logInterpreter: LogSuppressor,
-            options: {
-                dockerfileFinder: getDockerfile,
-            },
+            dockerfileFinder: getDockerfile,
         });
 
     public async enrich(interpretation: Interpretation): Promise<boolean> {
