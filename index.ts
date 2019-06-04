@@ -34,3 +34,8 @@ export {
     DotnetCoreStack,
     getDockerfile,
 } from "./lib/stack/dotnetCoreScanner";
+
+export {
+    DotnetCoreProjectFileCodeTransform,
+    DotnetCoreTransformRecipeContributor,
+} from "./lib/tranform/dotnetCoreTransforms";
